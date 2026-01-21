@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Guessing Game | C4 to C5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Voice Guessing Game</h1>
+            <p id="hint-range" class="subtitle">Range: 0 - 10</p>
+        </header>
+
+        <main>
+            <div class="display-card">
+                <div id="game-feedback" class="game-status">Ready to Guess?</div>
+                <div id="pitch-value">0.0</div>
+                <div class="pitch-label">Current Pitch</div>
+            </div>
+
+            <div class="meter-container">
+                <div id="meter-bar" class="meter-bar"></div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Attempts:</span>
+                    <span id="attempts-display">0/10</span>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="toggle-btn" class="primary-btn">Start Mic</button>
+                <button id="reset-btn" class="secondary-btn">New Game</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Sing Middle C (0) to Upper C (10) to play!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
