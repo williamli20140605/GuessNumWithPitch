@@ -16,7 +16,7 @@ A voice-controlled "Guess the Number" game. The computer picks a target from 0 t
   - **Web App**: Accessible on any browser with microphone access.
 
 ### How to Run (Double-Click)
-1. **macOS**: Double-click the `Run_Mac.command` file in the project folder.
+1. **macOS**: Double-click the `index.html` file in the web folder.
 2. **Windows**: Double-click the `index.html` file in the web folder.
 
 
