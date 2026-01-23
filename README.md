@@ -14,6 +14,7 @@ A voice-controlled "Guess the Number" game. The computer picks a target from 0 t
 - **Steady Pitch Submission**: Hold a note for ~0.8s to submit your guess.
 - **Dual Platform**:
   - **Web App**: Accessible on any browser with microphone access.
+- **Demo Video**: Goto [Youtube](https://youtu.be/eQmFMpBC38E) for the demo video.
 
 ### How to Run (Double-Click)
 1. **macOS**: Double-click the `index.html` file in the web folder.
